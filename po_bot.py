@@ -104,6 +104,7 @@ companies = {
     'Microsoft OTC': '#MSFT_otc',
     'Cisco OTC': '#CSCO_otc',
     'Citigroup Inc OTC': 'CITI_otc',
+    'AUD/USD OTC': 'AUDUSD_otc'
 }
 
 
