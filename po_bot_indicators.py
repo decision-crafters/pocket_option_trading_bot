@@ -29,7 +29,7 @@ options.add_argument('--ignore-certificate-errors')
 options.add_argument('--ignore-certificate-errors-spki-list')
 options.add_argument('--user-data-dir=default')
 # chromedriver can be downloaded from here: https://googlechromelabs.github.io/chrome-for-testing/
-service = Service(executable_path=r'/Users/vitaly/Downloads/chromedriver-mac-arm64/chromedriver')
+service = Service(executable_path=r'chrome-linux64/chrome')
 driver = webdriver.Chrome(options=options, service=service)
 companies = {
     'Apple OTC': '#AAPL_otc',
