@@ -100,6 +100,26 @@ companies = {
     'EUR/USD': 'EURUSD',
     'GBP/USD': 'GBPUSD',
     'USD/CAD': 'USDCAD',
+    'Apple OTC': '#AAPL_otc',
+    'American Express OTC': '#AXP_otc',
+    'Boeing Company OTC': '#BA_otc',
+    'Johnson & Johnson OTC': '#JNJ_otc',
+    "McDonald's OTC": '#MCD_otc',
+    'Tesla OTC': '#TSLA_otc',
+    'Amazon OTC': 'AMZN_otc',
+    'VISA OTC': 'VISA_otc',
+    'Netflix OTC': 'NFLX_otc',
+    'Alibaba OTC': 'BABA_otc',
+    'ExxonMobil OTC': '#XOM_otc',
+    'FedEx OTC': 'FDX_otc',
+    'FACEBOOK INC OTC': '#FB_otc',
+    'Pfizer Inc OTC': '#PFE_otc',
+    'Intel OTC': '#INTC_otc',
+    'TWITTER OTC': 'TWITTER_otc',
+    'Microsoft OTC': '#MSFT_otc',
+    'Cisco OTC': '#CSCO_otc',
+    'Citigroup Inc OTC': 'CITI_otc',
+    'AUD/USD OTC': 'AUDUSD_otc'
 }
 
 def make_trade_decision(base_currency, quote_currency, quote_sentiment, base_sentiment):
