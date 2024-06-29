@@ -1,5 +1,6 @@
 setuptools
 requests
+openai
 pandas==2.2.2
 scikit-learn==1.4.2
 selenium==4.20.0

@@ -65,4 +65,4 @@ for base_ticker in tickers:
         writer.writerow([base_ticker, base_sentiment])
         print(f"Sentiment for {base_ticker}: {base_sentiment}")
         print("Sentiment data saved to CSV file.")
-    time.sleep(30)
+    time.sleep(45)
